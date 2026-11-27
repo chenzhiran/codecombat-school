@@ -13,6 +13,6 @@ window.CC_CONFIG = {
   trailer:{src:'assets/chuangguan.mp4',title:'关卡展示 · 写代码、运行与闯关',poster:'assets/dungeon.webp'},
   onboarding:{src:'assets/new-intro.mp4',title:'新手引导 · 从注册到第一关',poster:'assets/dungeon.webp'},
   child:{src:'assets/child-learning.mp4',title:'孩子实际闯关 · 学习片段',poster:'assets/home-learning.webp'},
-  introduction:{src:'',title:'完整产品介绍 · 素材准备中',poster:'assets/worlds.webp'}
+  introduction:{src:'https://assets.koudashijie.com/aboutus/product-v1.0.mp4',title:'产品介绍 · 3 分钟了解 CodeCombat',poster:'assets/worlds.webp'}
  }
 };
