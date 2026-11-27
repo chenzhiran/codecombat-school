@@ -65,6 +65,44 @@
 @media(max-width:600px){.concerns-orbit-section{min-height:100svh;padding:40px 0}.concerns-orbit-section>.container{width:calc(100% - 40px)}.concerns-heading{margin-bottom:24px}.parent-orbit{min-height:0;gap:24px;padding-top:0}.parent-circle{width:128px;top:auto}.parent-orbit:before{width:155px;height:155px;top:65px}.worry-bubbles{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.worry-bubble{padding:16px 13px}.worry-bubble p{font-size:13px;line-height:1.7}.worry-bubble strong{font-size:14px}.worry-value,.worry-drive,.worry-ai,.worry-growth,.worry-interest{top:auto}.worry-bubble:last-child{grid-column:1/-1;text-align:center}.finale-inner{gap:48px}.finale-winner{width:300px;max-width:100%;padding:8px 10px 0}.finale-winner img{max-height:365px}.winner-celebration{width:114%;height:114%;left:-7%;top:-7%}}
 @media(max-width:360px){.concerns-orbit-section{padding:32px 0}.concerns-heading{margin-bottom:20px}.parent-orbit{gap:20px}.worry-bubble{padding:13px 11px}.worry-bubble p{font-size:12px}.worry-bubble strong{font-size:13px}.finale-winner{width:260px}}
 </style>
+<style id="ai-plan-offer">
+/* 首屏按钮组：付费主按钮 + 次级文字链接 */
+.updated-hero .hero-actions{gap:20px;flex-wrap:wrap}
+.updated-hero .hero-actions>.text-link{color:#f7ecdb;opacity:.92}
+.updated-hero .hero-actions>.text-link:hover{opacity:1}
+/* 年度价格区：与编程自学课同构，深色双栏，右侧列全年权益 */
+.ai-plan{background:#faf8f3}
+.ai-plan .section-heading{max-width:880px;margin:0 auto 40px;text-align:center}
+.ai-plan .section-heading .eyebrow{justify-content:center}
+.ai-plan .plan-offer{display:grid;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);max-width:1080px;margin:0 auto;background:#14283d;border:1px solid #22394e;border-radius:20px;overflow:hidden;box-shadow:0 44px 90px -56px rgba(20,40,61,.75);color:#e9eef2;text-align:left}
+.ai-plan .plan-buy{padding:40px 34px;background:linear-gradient(160deg,#1a3450,#14283d 72%);border-right:1px solid rgba(255,255,255,.09);display:flex;flex-direction:column}
+.ai-plan .annual-plan-label{display:inline-block;align-self:flex-start;font-size:11px;letter-spacing:.12em;color:#f2ca92;border:1px solid rgba(242,202,146,.45);border-radius:999px;padding:5px 12px}
+.ai-plan .plan-price{display:flex;align-items:baseline;gap:2px;margin-top:24px;color:#f2ca92;font-weight:650}
+.ai-plan .plan-price .cur{font-size:26px;font-weight:600;margin-right:2px}
+.ai-plan .plan-price strong{font-size:76px;line-height:.95;letter-spacing:-3px;font-weight:700}
+.ai-plan .plan-price .per{font-size:15px;font-weight:500;color:#a9bccb;margin-left:8px}
+.ai-plan .plan-daily{margin-top:14px;font-size:12.5px;color:#95a9b9}
+.ai-plan .plan-cta{margin-top:28px;width:100%;font-size:16px;padding:16px 20px}
+.ai-plan .plan-reassure{margin-top:15px;font-size:11.5px;line-height:1.9;color:#8fa4b5}
+.ai-plan .plan-reassure a{color:#f2ca92;text-decoration:underline;text-underline-offset:2px}
+.ai-plan .plan-includes{padding:38px 34px}
+.ai-plan .plan-includes h3{font-size:19px;color:#fff;letter-spacing:-.2px;margin:0;line-height:1.5}
+.ai-plan .plan-list{display:grid;grid-template-columns:1fr;gap:13px;margin-top:22px;list-style:none;padding:0}
+.ai-plan .plan-list li{position:relative;padding-left:24px;font-size:13.5px;line-height:1.8;color:#b3c4d0}
+.ai-plan .plan-list li::before{content:"";position:absolute;left:0;top:.55em;width:10px;height:5px;border-left:2px solid #f2ca92;border-bottom:2px solid #f2ca92;transform:rotate(-45deg)}
+.ai-plan .plan-list li strong{color:#fff;font-weight:700}
+.ai-plan .plan-total{margin-top:24px;padding-top:16px;border-top:1px solid rgba(255,255,255,.12);font-size:12px;line-height:1.85;color:#95a9b9}
+.ai-plan .plan-total strong{color:#f2ca92}
+.ai-plan .fine-print{max-width:1080px;margin:24px auto 0;font-size:11.5px;line-height:1.9;color:#8b949c;text-align:center}
+.ai-plan .fine-print a{color:#a67432;text-decoration:underline;text-underline-offset:2px}
+@media(max-width:900px){.ai-plan .plan-offer{grid-template-columns:1fr}.ai-plan .plan-buy{border-right:0;border-bottom:1px solid rgba(255,255,255,.09);padding:32px 26px}.ai-plan .plan-includes{padding:32px 26px}}
+@media(max-width:600px){.ai-plan .plan-buy,.ai-plan .plan-includes{padding:26px 22px}.ai-plan .plan-price strong{font-size:60px}.ai-plan .plan-list{grid-template-columns:1fr;gap:12px}.ai-plan .plan-list li{font-size:13.5px}.ai-plan .fine-print{text-align:left}.ai-plan .section-heading{margin-bottom:26px}}
+/* 结尾主按钮下的免费体验小字 */
+.finale p.finale-trial-note{margin:13px 0 0;font-size:11.5px;line-height:1.85;color:#6f5a3f}
+.finale p.finale-trial-note a{color:#8a5c1f;text-decoration:underline;text-underline-offset:3px}
+.finale .finale-secondary{margin-top:16px}
+@media(max-width:600px){.finale p.finale-trial-note{font-size:11px;margin-top:10px}.finale .finale-secondary{margin-top:14px}}
+</style>
 </head>
 <body>
   <a class="skip-link" href="#main">跳转到页面内容</a>
@@ -73,8 +111,8 @@
       <img class="brand-logo" src="assets/ai-logo.png" alt="扣哒宇宙" width="3092" height="845">
       <span>AI通识课</span>
     </a>
-    <nav aria-label="主要导航"><a href="../index.html">← 未来学校</a><a href="#game">为什么孩子爱学</a><a href="#curriculum">课程体系</a><a href="#projects">创作成果</a><a href="#faq">家长关心的问题</a></nav>
-    <a class="button button-small" href="https://edu.koudashijie.com/ai/play" target="_blank" rel="noopener">直接体验</a>
+    <nav aria-label="主要导航"><a href="#game">为什么孩子爱学</a><a href="#curriculum">课程体系</a><a href="#projects">创作成果</a><a href="#plans">价格</a><a href="#faq">家长关心的问题</a></nav>
+    <a class="button button-small" href="https://codecombat.cn/">立即开通</a>
   </header>
   <main id="main">
     <section class="hero updated-hero" aria-labelledby="hero-title">
@@ -85,10 +123,10 @@
       <div class="hero-shade"></div>
       <div class="container hero-inner">
         <div class="hero-copy">
-          <p class="eyebrow hero-eyebrow"><span class="status-dot"></span> AI 自学课 · 扣哒宇宙AI课 · 8 岁起</p>
+          <p class="eyebrow hero-eyebrow"><span class="status-dot"></span> AI通识课体验 · 扣哒宇宙AI课 · 8 岁起</p>
           <h1 id="hero-title">从想法到作品，<span class="hero-title-line">培养孩子面向</span><span class="hero-title-line"> AI 时代的<em>创造力</em></span></h1>
           <p class="hero-description"><span>从小培养 AI 素养，让孩子会提问、会判断、会创造。</span><br><span>从创意表达到项目实践，让孩子用 AI 把想法变成自己的作品。</span></p>
-          <div class="hero-actions"><a class="button" href="#curriculum">看看孩子会学什么</a></div>
+          <div class="hero-actions"><a class="button" href="https://codecombat.cn/">立即开通 · ¥1299 / 年</a><a class="text-link" href="#curriculum">先看看孩子会学什么 <span aria-hidden="true">→</span></a></div>
         </div>
         
         <div class="hero-bottom">
@@ -123,7 +161,7 @@
         <article><span class="creation-mark" aria-hidden="true">✦</span><h3>从想法出发，<em>做出自己的作品</em></h3><p>画一幅画、写一个故事、做一个网站、开发一个小工具，把脑海里的创意一步步变成真正能看到、能使用的作品。</p></article>
         <article><span class="creation-mark" aria-hidden="true">✧</span><h3>不只会用AI，<em>更会用AI创造</em></h3><p>从AI绘画、故事创作，到网站、APP、数据分析和智能应用，让孩子学会把AI真正用到创作和解决问题中。</p></article>
         <article><span class="creation-mark" aria-hidden="true">✺</span><h3>学得越多，<em>作品越丰富</em></h3><p>故事、海报、网站、小游戏、数据报告、智能小程序……孩子每学一个方向，都能留下属于自己的创作成果。</p></article>
-        <a class="button experience-button" href="https://edu.koudashijie.com/ai/play" target="_blank" rel="noopener">直接体验一关</a>
+        <a class="button experience-button" href="https://codecombat.cn/">立即开通，解锁全部星球</a>
       </div>
     </div>
   </div>
@@ -166,9 +204,37 @@
 
     <section class="routine section" aria-labelledby="routine-title"><div class="container"><div class="section-heading"><p class="eyebrow">使用场景</p><h2 id="routine-title">孩子什么时候学？</h2></div><div class="routine-grid"><article><h3>放学后 · 在家自主学</h3><p>孩子写完作业主动闯关，不再抱着手机刷视频</p></article><article><h3>周末 · 在家自学</h3><p>家长忙自己的，孩子自己学，安全又省心</p></article><article><h3>寒暑假 · 集中自学</h3><p>长假系统进阶，开学不落后</p></article><article><h3>课外活动 · 素养拓展</h3><p>兴趣班之外，多一项 AI 素养傍身</p></article></div></div></section>
 
+    <section class="section ai-plan" id="plans" aria-labelledby="plans-title"><div class="container">
+  <div class="section-heading"><p class="eyebrow">一年 ¥1299</p><h2 id="plans-title">把 AI 变成<em>孩子自己的能力</em></h2><p class="section-intro">不用一次报几年，也不用每周接送。孩子喜欢的星球可以一直闯下去，这一年里，打开账号就能学。</p></div>
+  <div class="plan-offer">
+    <div class="plan-buy">
+      <span class="annual-plan-label">单人年度学习方案</span>
+      <p class="plan-price"><span class="cur">¥</span><strong>1299</strong><span class="per">/ 年</span></p>
+      <p class="plan-daily">约 ¥3.6 / 天 · 1 个账号 · 有效期 1 年</p>
+      <a class="button plan-cta" href="https://codecombat.cn/">立即开通年会员</a>
+      <p class="plan-reassure">支持微信支付，开通后即可进入全部已开放星球。</p>
+    </div>
+    <div class="plan-includes">
+      <h3>这一年，孩子能拿到什么</h3>
+      <ul class="plan-list">
+        <li><strong>11 大 AI 创作星球</strong>，从启蒙一路走到项目实践</li>
+        <li><strong>485 个闯关关卡、200+ 标准课时</strong>，按自己的节奏推进</li>
+        <li><strong>小学敢创作、初中会应用、高中做项目</strong>，三段路径接着学</li>
+        <li><strong>七大学科 × AI</strong>：语文、数学、英语、科学、音乐、美术、信息技术</li>
+        <li><strong>每学一课都有作品</strong>：故事、海报、网站、小游戏、数据报告、智能工具</li>
+        <li><strong>一个账号畅用多个国产大模型</strong>：DeepSeek、豆包、Kimi 等 6 款</li>
+        <li><strong>AI 引导着学，不用家长陪</strong>：卡住给提示，不直接给答案</li>
+        <li><strong>安全合规对标官方指南</strong>，孩子用得安心，家长放得下心</li>
+      </ul>
+      <p class="plan-total"><strong>一个账号，全部解锁，不再另收课时费。</strong>电脑、平板都能用，同一账号可多设备登录。</p>
+    </div>
+  </div>
+  <p class="fine-print">日均费用按一年折算，不代表按日收费。课程开放进度、账号权益与服务条款以 <a href="https://codecombat.cn/">codecombat.cn</a> 为准。每个账号仅适合一个孩子使用。</p>
+</div></section>
+
     <section class="details-section section" id="faq" aria-labelledby="faq-title"><div class="container details-grid"><div><p class="eyebrow">做决定前，先了解清楚</p><h2 id="faq-title">课程说明</h2><dl class="spec-list"><div><dt>课程规格</dt><dd>11 大课程系列 / 485 关卡 / 200+ 课时</dd></div><div><dt>课程形式</dt><dd>网页版，支持电脑或平板，无配套实物 / 教具</dd></div><div><dt>适用人群</dt><dd>8 岁起；小学到高中，按不同星球分段</dd></div><div><dt>使用方法</dt><dd>孩子在电脑 / 平板上登录网站自学，无需家长陪同，单次约 1 小时</dd></div><div><dt>服务权益</dt><dd>账号有效期 1 年</dd></div><div><dt>技术底座</dt><dd>全程使用国产大模型，一个账号畅用多个模型</dd></div></dl></div><div class="faq-list"><details open><summary>孩子没有基础，可以开始吗？<span aria-hidden="true"></span></summary><p>可以从 AI创作启蒙星球 开始，在有引导的游戏任务中认识 AI、练习提问。AI创作启蒙星球 适配小学 3–6 年级，选择时也要结合孩子的阅读和电脑操作能力。</p></details><details><summary>课程是怎么逐步进阶的？<span aria-hidden="true"></span></summary><p>以“学习 → 二创 → 创作”为路径：先理解示例，再修改和优化，最后探索自己的主题。已开放课程从 AI创作启蒙星球、AI创意设计星球 到 AI自由创造星球，后续系列按产品进度逐步开放。</p></details><details><summary>家长不懂 AI，需要一直陪着吗？<span aria-hidden="true"></span></summary><p>课程支持孩子跟着任务自主探索。初次使用时，建议家长帮助登录、熟悉操作，并一起约定学习时间；日常可以请孩子讲讲自己是怎么提问、核对答案和修改作品的，从这些小细节看到 AI 素养的成长。</p></details><details><summary>手机能上课吗？需要安装软件吗？<span aria-hidden="true"></span></summary><p>课程通过网页访问，无需安装客户端。建议使用电脑，或配有键盘的平板，以便输入提示词和进行项目创作；本详情页支持手机阅读。</p></details><details><summary>购买后能使用哪些课程与模型？<span aria-hidden="true"></span></summary><p>具体包含的课程许可、开放系列与模型功能以所购买的账号权益为准。购买前可通过官方产品入口确认当前开放内容和服务范围。</p></details></div></div></section>
 
-    <section class="finale" id="start" aria-labelledby="start-title"><div class="container finale-inner"><div><p class="eyebrow">现在开始</p><h2 id="start-title">AI 时代不等人，<br>孩子的差距每天都在拉开</h2><p>别人家的孩子已经在学，你的孩子也可以</p><a class="button button-dark" href="https://edu.koudashijie.com/ai/play" target="_blank" rel="noopener">今天就开始第一课</a><a class="finale-secondary" href="#curriculum">再看看完整课程体系</a></div><figure class="finale-winner"><svg class="winner-celebration" viewBox="0 0 500 600" fill="none" aria-hidden="true" focusable="false">
+    <section class="finale" id="start" aria-labelledby="start-title"><div class="container finale-inner"><div><p class="eyebrow">现在开始</p><h2 id="start-title">AI 时代不等人，<br>孩子的差距每天都在拉开</h2><p>¥1299 买下这一年，孩子随时都能开始第一课</p><a class="button button-dark" href="https://codecombat.cn/">立即开通，今天就开始第一课</a><p class="finale-trial-note">还没想好？可以先<a href="https://edu.koudashijie.com/ai/play" target="_blank" rel="noopener">免费体验第一关</a>。</p><a class="finale-secondary" href="#curriculum">再看看完整课程体系</a></div><figure class="finale-winner"><svg class="winner-celebration" viewBox="0 0 500 600" fill="none" aria-hidden="true" focusable="false">
 <defs><radialGradient id="winner-glow"><stop stop-color="#fffef6"/><stop offset=".75" stop-color="#fff3cf"/><stop offset="1" stop-color="#ffedbf" stop-opacity="0"/></radialGradient><linearGradient id="winner-ground"><stop stop-color="#c37c2a" stop-opacity="0"/><stop offset=".5" stop-color="#c37c2a" stop-opacity=".22"/><stop offset="1" stop-color="#c37c2a" stop-opacity="0"/></linearGradient></defs>
 <circle cx="250" cy="278" r="236" fill="url(#winner-glow)"/>
 <circle cx="250" cy="265" r="195" fill="#fff9e9" fill-opacity=".53"/>
@@ -183,6 +249,6 @@
 </svg><img src="assets/finale-gold-medal.png" alt="男孩站在第一名领奖台上，戴着金牌，开心地举手庆祝" loading="lazy" width="1145" height="1373"></figure></div></section>
   </main>
   <footer class="site-footer"><div class="container"><a class="footer-brand" href="#top">扣哒宇宙AI课</a><p>课程内容及服务以实际开放版本与所购权益为准。</p><a href="#top" class="back-top">返回顶部</a></div></footer>
-  <div class="mobile-cta"><div><strong>扣哒宇宙AI课</strong><span>8 岁起 · 游戏化学 AI</span></div><a class="button button-small" href="https://edu.koudashijie.com/ai/play" target="_blank" rel="noopener">直接体验</a></div>
+  <div class="mobile-cta"><div><strong>扣哒宇宙AI课</strong><span>8 岁起 · ¥1299 / 年</span></div><a class="button button-small" href="https://codecombat.cn/">立即开通</a></div>
 </body>
 </html>
